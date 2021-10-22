@@ -1,0 +1,40 @@
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2% 0%;
+}
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+}
+.cuadrado.rojo {
+  background: red;
+}
+.cuadrado.azul {
+  background: blue;
+}
+.cuadrado.amarillo {
+  background: yellow;
+}
+.btn {
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  border-style: none;
+  font-weight: bold;
+}
+.btn.rojo {
+  background-color: red;
+}
+.btn.azul {
+  background-color: blue;
+}
+.btn.amarillo {
+  background-color: yellow;
+}
